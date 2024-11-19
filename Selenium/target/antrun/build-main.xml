@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <move file="C:\Users\acer\Desktop\Javaprotect\Selenium\target/Selenium-apexconf.jar" tofile="C:\Users\acer\Desktop\Javaprotect\Selenium\target/Selenium.apc"/>
+</target>
+</project>
