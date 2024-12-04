@@ -32,8 +32,8 @@ public class QuanLyNguoiDung_test extends CommonBase{
 	public void ThemNguoiDungThanhCong()
 	{
 		QuanLyNguoiDungPage quanlyND = new QuanLyNguoiDungPage(driver);
-		quanlyND.ThemNguoiDung("HoangDucTri","d.trihoang0211022@gmail.com","905804112","4","1","2","9123456");
-		assertTrue(driver.findElement(By.xpath("//div[text()='Dữ liệu nhập vào sai định dạng']")).isDisplayed());
+		quanlyND.ThemNguoiDung("HoangDucTri","dd.trihoang02110222@gmail.com","905804112","4","1","2","91234586");
+		assertTrue(driver.findElement(By.xpath("//div[text()='Thêm mới người dùng thành công']")).isDisplayed());
 	}
 	@Test(priority=3)
 	public void XoaNguoiDungKhiDaThemThanhCong()

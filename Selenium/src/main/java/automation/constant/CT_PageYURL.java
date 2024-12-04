@@ -9,5 +9,6 @@ public class CT_PageYURL {
 	public static String bepantoan= "https://bepantoan.vn/" ;
 	public static String testsystem= "http://test-system.crmstar.vn/" ;
 	public static String CRMcodeStar= "http://test-system.crmstar.vn/" ;
+	public static String TEDUURL= "https://tedu.com.vn/" ;
 
 }
