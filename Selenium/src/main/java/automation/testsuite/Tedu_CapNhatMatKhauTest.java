@@ -3,6 +3,8 @@ package automation.testsuite;
 
 import static org.testng.Assert.assertTrue;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
 import automation.common.CommonBase;
@@ -29,9 +31,10 @@ public class Tedu_CapNhatMatKhauTest extends CommonBase{
 		int value = rand.nextInt(50);
 		String newPass = currentPass+value;
 		System.out.println(newPass);
-						
+		driver.manage().timeouts()	.implicitlyWait(5, TimeUnit.SECONDS);
 		DangNhapThanhCong();
 		teduPage.CapNhatMatKhau(currentPass, newPass);
+		
 		assertTrue(driver.findElement(By.xpath("//div[text()='Đổi mật khẩu thành công. Mời bạn đăng nhập lại.']")).isDisplayed());
 		currentPass = newPass;
 	}

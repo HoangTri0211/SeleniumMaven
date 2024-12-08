@@ -10,5 +10,8 @@ public class CT_PageYURL {
 	public static String testsystem= "http://test-system.crmstar.vn/" ;
 	public static String CRMcodeStar= "http://test-system.crmstar.vn/" ;
 	public static String TEDUURL= "https://tedu.com.vn/" ;
+	public static String ALERT= "https://demo.automationtesting.in/Alerts.html" ;
+	public static String ALERTSELENIUM= "http://seleniumpractise.blogspot.com/2019/01/alert-demo.html " ;
+
 
 }
